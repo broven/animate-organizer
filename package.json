@@ -18,7 +18,7 @@
     "prepare": "tsdx build",
     "size": "size-limit",
     "analyze": "size-limit --why",
-    "docker:build": "npm run build && docker build -t animate-organizer:latest .",
+    "docker:build": "npm run build && docker build -t metajs/animate-organizer:latest .",
     "serve": "node dist/index.js"
   },
   "peerDependencies": {},
