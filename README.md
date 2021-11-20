@@ -8,9 +8,16 @@
 ## Usage
 ```shell
 docker run --name animate-organizer \
--v /animate:/Users/meta/meta/projects/ \ animate/animate-organizer/demo/ \
--e DRY_RUN=false \
+-v /animate:/animate \
 --restart always \
---rm \
--d animate-organizer
+metajs:animate-organizer
 ```
+## 说明
+1.启动容器后， 会先扫描`/animate` 文件夹下面的文件， 输出匹配的动漫
+2. 2分钟后会启动修改
+3. 定时每8小时执行一次
+
+
+## related project
+- [animate-metainfo-parser-cn: 动漫名原信息解析](https://github.com/broven/animate-metainfo-parser-cn)
+- [rss-babel: 过滤出中文字幕的动漫](https://github.com/broven/rss-babel)
