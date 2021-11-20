@@ -1445,10 +1445,10 @@ ajv@^6.10.0, ajv@^6.10.2, ajv@^6.12.3:
     json-schema-traverse "^0.4.1"
     uri-js "^4.2.2"
 
-animate-metainfo-parser-cn@^1.0.2:
-  version "1.0.2"
-  resolved "https://registry.npmmirror.com/animate-metainfo-parser-cn/download/animate-metainfo-parser-cn-1.0.2.tgz"
-  integrity sha512-wBscndbfDWSqrHj8/XPYeuId3SGOvPnW75ORtFjuqXppVfGw8uZg/G2z50EJw/h6t/pJYrR8/PRYZxoocXkHpw==
+animate-metainfo-parser-cn@*:
+  version "1.1.0"
+  resolved "https://registry.npmmirror.com/animate-metainfo-parser-cn/download/animate-metainfo-parser-cn-1.1.0.tgz?cache=0&sync_timestamp=1637430793580&other_urls=https%3A%2F%2Fregistry.npmmirror.com%2Fanimate-metainfo-parser-cn%2Fdownload%2Fanimate-metainfo-parser-cn-1.1.0.tgz#5d6474a555cde7e3f8feeaebda31f14897f7ad3c"
+  integrity sha512-4l1oEhjRWOfhZjb4YFvY6UkrFXIi3x5YbtNO2WnDi/0IVgWkM5Z9VFIc3WkJpVNnfkbnu5lUNKeKCjbtn65now==
   dependencies:
     xml-js "^1.6.11"
 
