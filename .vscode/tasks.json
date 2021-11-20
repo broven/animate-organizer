@@ -1,0 +1,13 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"type": "npm",
+			"script": "docker:build",
+			"group": "build",
+			"problemMatcher": [],
+			"label": "npm: docker:build",
+			"detail": "docker build -t animate-organizer:latest ."
+		}
+	]
+}
