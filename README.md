@@ -13,9 +13,9 @@ docker run --name animate-organizer \
 metajs:animate-organizer
 ```
 ## 说明
-1.启动容器后， 会先扫描`/animate` 文件夹下面的文件， 输出匹配的动漫
-2. 2分钟后会启动修改
-3. 定时每8小时执行一次
+1. 启动容器后， 会先扫描`/animate` 文件夹下面的文件， 输出匹配的动漫
+1. 2分钟后会启动修改
+1. 定时每8小时执行一次
 
 
 ## related project
