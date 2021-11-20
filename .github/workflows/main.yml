@@ -55,4 +55,4 @@ jobs:
         uses: docker/build-push-action@v2
         with:
           push: true
-          tags: metajs/animate-organizer:latest,metajs/animate-organizer:$(date +%s)
+          tags: metajs/animate-organizer:latest
