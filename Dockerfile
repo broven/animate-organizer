@@ -7,7 +7,7 @@ ENV ANIMATE_DIR=/animate
 
 COPY . .
 
-RUN npm install
+RUN npm install && npm run build
 # CMD "cat package.json"
 CMD ["npm", "run", "serve"]
 
