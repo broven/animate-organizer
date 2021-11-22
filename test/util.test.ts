@@ -10,6 +10,7 @@ describe('util', () => {
     ).toBe(true);
     expect(needRename('E01.mp4')).toBe(false);
     expect(needRename('tv-show.nfo')).toBe(false);
+    expect(needRename('tv-show.mp4')).toBe(false);
     expect(needRename('tv-show.jpg')).toBe(false);
   });
 });

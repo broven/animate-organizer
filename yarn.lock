@@ -1446,9 +1446,9 @@ ajv@^6.10.0, ajv@^6.10.2, ajv@^6.12.3:
     uri-js "^4.2.2"
 
 animate-metainfo-parser-cn@*:
-  version "1.1.0"
-  resolved "https://registry.npmmirror.com/animate-metainfo-parser-cn/download/animate-metainfo-parser-cn-1.1.0.tgz?cache=0&sync_timestamp=1637430793580&other_urls=https%3A%2F%2Fregistry.npmmirror.com%2Fanimate-metainfo-parser-cn%2Fdownload%2Fanimate-metainfo-parser-cn-1.1.0.tgz#5d6474a555cde7e3f8feeaebda31f14897f7ad3c"
-  integrity sha512-4l1oEhjRWOfhZjb4YFvY6UkrFXIi3x5YbtNO2WnDi/0IVgWkM5Z9VFIc3WkJpVNnfkbnu5lUNKeKCjbtn65now==
+  version "1.3.0"
+  resolved "https://registry.npmjs.org/animate-metainfo-parser-cn/-/animate-metainfo-parser-cn-1.3.0.tgz#790b7ec3b225c501cddf9d045f48faf373f5b8ad"
+  integrity sha512-D+8t0sTsnFPMgpYIy/YEDc78fLqGHR5xfF30GYOGcRPM72YB4/Di/aeDX8D5aJnORDDmPaL8g7z6NUINr3ZkXg==
   dependencies:
     xml-js "^1.6.11"
 
@@ -5538,8 +5538,8 @@ sane@^4.0.3:
 
 sax@^1.2.4:
   version "1.2.4"
-  resolved "https://registry.nlark.com/sax/download/sax-1.2.4.tgz"
-  integrity sha1-KBYjTiN4vdxOU1T6tcqold9xANk=
+  resolved "https://registry.npmjs.org/sax/-/sax-1.2.4.tgz#2816234e2378bddc4e5354fab5caa895df7100d9"
+  integrity sha512-NqVDv9TpANUjFm0N8uM5GxL36UgKi9/atZw+x7YFnQ8ckwFGKrl4xX4yWtrey3UJm5nP1kUbnYgLopqWNSRhWw==
 
 saxes@^3.1.9:
   version "3.1.11"
@@ -6525,8 +6525,8 @@ ws@^7.0.0:
 
 xml-js@^1.6.11:
   version "1.6.11"
-  resolved "https://registry.npm.taobao.org/xml-js/download/xml-js-1.6.11.tgz"
-  integrity sha1-kn0vaUf38cGaMW3Y7qNhTosY+Ok=
+  resolved "https://registry.npmjs.org/xml-js/-/xml-js-1.6.11.tgz#927d2f6947f7f1c19a316dd8eea3614e8b18f8e9"
+  integrity sha512-7rVi2KMfwfWFl+GpPg6m80IVMWXLRjO+PxTq7V2CDhoGak0wzYzFgUY2m4XJ47OGdXd8eLE8EmwfAmdjw7lC1g==
   dependencies:
     sax "^1.2.4"
 
