@@ -51,7 +51,7 @@ if (process.env.NODE_ENV === 'development') {
     );
     setTimeout(() => {
       main(process.env.ANIMATE_DIR as string, process.env.DRY_RUN === 'true');
-      cron.schedule('* */8 * * *', () => {
+      cron.schedule('* */4 * * *', () => {
         main(process.env.ANIMATE_DIR as string, process.env.DRY_RUN === 'true');
       });
     }, 1000 * 60 * 2);
