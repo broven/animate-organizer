@@ -10,8 +10,9 @@
 docker run --name animate-organizer \
 -v /animate:/animate \
 --restart always \
-registry.cn-hangzhou.aliyuncs.com/metajs/animate-organizer:latest
+metajs/animate-organizer:latest
 ```
+速度慢的话， 可以使用阿里云镜像： registry.cn-hangzhou.aliyuncs.com/metajs/animate-organizer:latest
 ## 说明
 1. 启动容器后， 会先扫描`/animate` 文件夹下面的文件， 输出匹配的动漫
 1. 2分钟后会启动修改
