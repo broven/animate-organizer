@@ -13,7 +13,7 @@ const log = console.log;
 
 const getName = (name: string) => {
   const meta = new AnimateTitleMetaParser(name);
-  return `E${String('0' + meta.episode).slice(-2)} ${name}`;
+  return `E${String('0' + meta.episode).slice(-2)}`;
 };
 const main = (baseDir: string, dryRun: boolean) => {
   const files = fs.readdirSync(baseDir);
